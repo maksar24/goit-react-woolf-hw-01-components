@@ -16,7 +16,7 @@ export const Status = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: ${({ status }) => (status ? '#77d942' : '#cf5e54')};
+  background-color: ${({ $status }) => ($status ? '#77d942' : '#cf5e54')};
 `;
 
 export const Avatar = styled.img``;
